@@ -1,0 +1,87 @@
+#calc {  
+	text-align: center;
+	width: 380px; 
+	display: block;
+	border-radius:8px;
+	border: 1px solid;
+	border-color: #000000;
+	padding:8px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	background: #005d5f;
+}
+
+#display {
+	background: #c9c9c9;
+	padding: 8px;
+	margin:16px 12px 10px 16px;
+	text-align: center;
+	font-family: 'Share Tech Mono', monospace;
+	border-radius:8px;
+}
+
+#result {
+	font-size: 22px;
+}
+
+#result,
+#previous {
+	text-align: right;
+}
+
+#keyboard {
+	display: inline-block;  
+	text-align: center;
+	margin-bottom:8px;
+	position: relative;
+	left: -31px;
+	top: 50px;
+}
+
+.row {
+	margin-top: 4px;
+}
+
+button {
+	width: 62px;
+	margin: 2px;
+}
+
+#operator {
+	padding-left: 70px;
+}
+
+#equal {
+	float: right;
+	height: 106px;
+	position: relative;
+	top: -110px;
+	background-color: #00e022;
+	border-color: #00ab1a;
+	border-radius: 5px;
+}
+
+.ope {
+	background-color: #ff9f02;
+	border-color: #ff7102;
+	border-radius: 5px;
+}
+
+.val {
+	background-color: #1ce8d8;
+	border-color: #10b0a3;
+	border-radius: 5px;
+}
+
+.point {
+	background-color: #1a6ad8;
+	border-color: #154f9e;
+	border-radius: 5px;
+}
+
+.del {
+	background-color: #e42424;
+	border-color: #b11111;
+	border-radius: 5px;
+}
